@@ -1,0 +1,26 @@
+{
+    "port": 3000,
+    "security": {
+        "tokenLife" : 36000
+    },
+    "mongoose": {
+        "uri": "mongodb://127.0.0.1:27017/vgodown"
+    },
+    "default": {
+        "api": {
+            "version" : "v1"
+        },
+        "user": {
+            "username": "myapi",
+            "password": "abc1234"
+        },
+        "client": {
+            "name": "vgAppClient",
+            "clientId": "$vgodown1",
+            "clientSecret": "grnklnio576543hyjvbk"
+        }
+    },
+    "domain" : {
+        "baseURL" : "http://127.0.0.1:3000/#/onVerifyAction/"
+    }
+}
