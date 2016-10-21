@@ -15,5 +15,5 @@ vg.use(bodyParser.urlencoded({ extended: false }));
 vg.use('/static', express.static(__dirname + '/public'));
 vg.use('/api/users', users);
 module.exports = vg;
-vg.listen(80);
+vg.listen(800);
 console.log("vg is started and listening 3000");
