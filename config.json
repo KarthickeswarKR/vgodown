@@ -4,7 +4,7 @@
         "tokenLife" : 36000
     },
     "mongoose": {
-        "uri": "mongodb://127.0.0.1:27017/vgodown"
+        "uri": "mongodb://localhost:27017/vgd1"
     },
     "default": {
         "api": {
@@ -22,5 +22,9 @@
     },
     "domain" : {
         "baseURL" : "http://127.0.0.1:3000/#/onVerifyAction/"
+    },
+    "currency":{
+      "url":"http://apilayer.net/api/live?access_key=9007efdb522902977ed56566f93c4683",
+      "scheduletime":"1 * * * * *"
     }
 }
