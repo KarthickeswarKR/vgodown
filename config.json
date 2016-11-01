@@ -25,6 +25,6 @@
     },
     "currency":{
       "url":"http://apilayer.net/api/live?access_key=9007efdb522902977ed56566f93c4683",
-      "scheduletime":"1 * * * * *"
+      "scheduletime":"1440 * * * * *"
     }
 }
